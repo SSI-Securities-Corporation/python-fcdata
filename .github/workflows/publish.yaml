@@ -1,0 +1,28 @@
+ame: Semantic Release
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    concurrency: release
+
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+    - uses: actions/setup-python@v4
+      with:
+      python-version: '3.11'
+
+    - name: Build sdist
+      run: python setup.py sdist
+    - uses: vimtor/action-zip@v1
+      with:
+        files: dist/ docs/ config.py README.md test_Req_Res.py test_Streaming.py
+        dest: fc-data.py.zip
+    - name: Semantic Release
+      uses: cycjimmy/semantic-release-action@v3
