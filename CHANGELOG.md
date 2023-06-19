@@ -2,6 +2,16 @@
 
 <!--next-version-placeholder-->
 
+## v2.0.0 (2023-06-19)
+
+### Feature
+
+* Add badge ([`798c6a5`](https://github.com/SSI-Securities-Corporation/python-fcdata/commit/798c6a517db0cf3073eced5857a4276030ba8c6f))
+
+### Breaking
+
+* remove protobuf v1 ([`798c6a5`](https://github.com/SSI-Securities-Corporation/python-fcdata/commit/798c6a517db0cf3073eced5857a4276030ba8c6f))
+
 ## v1.0.0 (2023-06-19)
 
 ### Feature
