@@ -10,8 +10,6 @@ from dataclasses import asdict
 
 class MarketDataClient(object):
 
-
-	# def __init__(self, _config, _type_jwt):
 	def __init__(self, _config):
 
 		self._config = _config
