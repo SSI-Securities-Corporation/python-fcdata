@@ -1,8 +1,6 @@
 import json
 import requests
 
-# from model import constants
-# from model import api
 
 from .model import constants
 from .model import api
