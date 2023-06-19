@@ -23,13 +23,9 @@ class MarketDataStream(object):
 	def _on_message(self, _message):
 		x = json.loads(_message)
 		try:
-
 			for _handler in self._handlers:
-
 				_handler(x)
-
 		except:
-			
 			raise Exception(constants.RECEIVE_ERROR_MESSAGE)
 
 
