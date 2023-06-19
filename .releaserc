@@ -1,0 +1,35 @@
+{
+  "branches": "master",
+  "repositoryUrl": "https://github.com/SSI-Securities-Corporation/python-fctrading.git",
+  "debug": "false",
+  "plugins": [
+    "@semantic-release/commit-analyzer",
+    "@semantic-release/release-notes-generator",
+    [
+      "@semantic-release/changelog",
+      {
+        "changelogFile": "CHANGELOG.md",
+        "changelogTitle": "# FCData Python Client Changelog"
+      }
+    ],
+    [
+      "@semantic-release/git",
+      {
+        "assets": [
+          "CHANGELOG.md"
+        ]
+      }
+    ],
+    [
+      "@semantic-release/github",
+      {
+        "assets": [
+          {
+            "name": "fc-data.py.zip",
+            "path": "fc-data.py.zip"
+          }
+        ]
+      }
+    ]
+  ]
+}
