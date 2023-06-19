@@ -1,10 +1,16 @@
 [![Semantic Release](https://github.com/SSI-Securities-Corporation/python-fcdata/actions/workflows/publish.yaml/badge.svg)](https://github.com/SSI-Securities-Corporation/python-fcdata/actions/workflows/publish.yaml)
 # Installation
 #### From tar ball (most stable)
+If you download file [fc-data.py.zip](https://github.com/SSI-Securities-Corporation/python-fcdata/releases/latest/download/fc-data.py.zip), we include tarball file:
 ``` python
 pip install dist/ssi-fc-data-2.1.0.tar.gz
 ```
 #### Install behind proxy
+```python
+pip install --trusted-host pypi.org --trusted-host
+files.pythonhosted.org --proxy=http://<username>:<password>@<host>:<port> ssi-fc-data
+```
+Or
 ```python
 pip install --trusted-host pypi.org --trusted-host
 files.pythonhosted.org --proxy=http://<username>:<password>@<host>:<port> dist/ssi-fc-data-2.1.0.tar.gz
