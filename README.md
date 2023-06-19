@@ -1,3 +1,4 @@
+[![Semantic Release](https://github.com/SSI-Securities-Corporation/python-fcdata/actions/workflows/publish.yaml/badge.svg)](https://github.com/SSI-Securities-Corporation/python-fcdata/actions/workflows/publish.yaml)
 # Installation
 #### From tar ball (most stable)
 ``` python
