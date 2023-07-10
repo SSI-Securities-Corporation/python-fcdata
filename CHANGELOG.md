@@ -2,6 +2,13 @@
 
 <!--next-version-placeholder-->
 
+## v2.1.0 (2023-07-10)
+
+### Feature
+
+* Update access token ([`5b32b6d`](https://github.com/SSI-Securities-Corporation/python-fcdata/commit/5b32b6ddbe79ed0df2948e8f36b6d3f933e27466))
+* Update readme ([`e127291`](https://github.com/SSI-Securities-Corporation/python-fcdata/commit/e1272915222a1502b2464f632c7d9ac43083135a))
+
 ## v2.0.0 (2023-06-19)
 
 ### Feature
