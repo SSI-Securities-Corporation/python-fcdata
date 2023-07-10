@@ -46,7 +46,6 @@ def main():
         print('16  - Intraday OHLC')
         print('17  - Daily index')
         print('18  - Stock price')
-        print('19  - Get access token')
         value = input('Enter your choice: ')
 
         if value == '11':
@@ -65,8 +64,6 @@ def main():
             md_get_daily_index()
         elif value == '18':
             md_get_stock_price()
-        elif value == '19':
-            md_access_token()
 
 if __name__ == '__main__':
 	main()
