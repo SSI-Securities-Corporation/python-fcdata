@@ -5,7 +5,7 @@ import config
 
 client = fc_md_client.MarketDataClient(config)
 def md_access_token():
-	print(client.access_token(config))
+	print(client.access_token(model.accessToken(config.consumerID, config.consumerSecret)))
 
 def md_get_securities_list():
     req = model.securities('HNX', 1,100)
