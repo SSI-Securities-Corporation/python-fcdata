@@ -1,4 +1,4 @@
-ame: Semantic Release
+name: Semantic Release
 
 on:
   push:
@@ -11,18 +11,17 @@ jobs:
     concurrency: release
 
     steps:
-    - uses: actions/checkout@v2
-      with:
-        fetch-depth: 0
-    - uses: actions/setup-python@v4
-      with:
-      python-version: '3.11'
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
 
-    - name: Build sdist
-      run: python setup.py sdist
-    - uses: vimtor/action-zip@v1
-      with:
-        files: dist/ docs/ config.py README.md test_Req_Res.py test_Streaming.py
-        dest: fc-data.py.zip
-    - name: Semantic Release
-      uses: cycjimmy/semantic-release-action@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+
+      - name: Python Semantic Release
+        uses: fDizzzy/python-semantic-release@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          repository_username: __token__
+          repository_password: ${{ secrets.PYPI_TOKEN }}

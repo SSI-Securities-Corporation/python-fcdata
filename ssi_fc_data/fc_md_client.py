@@ -1,8 +1,6 @@
 import json
 import requests
 
-# from model import constants
-# from model import api
 
 from .model import constants
 from .model import api
@@ -12,8 +10,6 @@ from dataclasses import asdict
 
 class MarketDataClient(object):
 
-
-	# def __init__(self, _config, _type_jwt):
 	def __init__(self, _config):
 
 		self._config = _config
@@ -56,7 +52,7 @@ class MarketDataClient(object):
 		return self._access_token.get_access_token()
      
 	def access_token(self, _input_data: model.accessToken):
-		return self._make_post_request(api.MD_ACCESS_TOKEN, _req_body = _input_data)
+		return self._make_post_request(api.MD_ACCESS_TOKEN, data = _input_data)
 
 
 	def securities(self, _input_data, _object: model.securities):
