@@ -30,7 +30,7 @@ setup(
     long_description_content_type="text/markdown",
     url="https://github.com/SSI-Securities-Corporation/python-fcdata",
     python_requires='>=3.5',
-    install_requires=['requests>=2.18.4', 'websockets>=4.0.1'],
+    install_requires=['requests>=2.18.4', 'websocket-client>=1.5.2'],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
