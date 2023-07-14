@@ -2,6 +2,17 @@
 
 <!--next-version-placeholder-->
 
+## v2.1.0 (2023-07-11)
+
+### Feature
+
+* Update access token ([`5b32b6d`](https://github.com/SSI-Securities-Corporation/python-fcdata/commit/5b32b6ddbe79ed0df2948e8f36b6d3f933e27466))
+* Update readme ([`e127291`](https://github.com/SSI-Securities-Corporation/python-fcdata/commit/e1272915222a1502b2464f632c7d9ac43083135a))
+
+### Fix
+
+* Remove jwt in config file ([`c66883c`](https://github.com/SSI-Securities-Corporation/python-fcdata/commit/c66883cef9d55c0a2a0474c04dda409ace3c61c2))
+
 ## v2.1.1 (2023-07-10)
 
 ### Fix
