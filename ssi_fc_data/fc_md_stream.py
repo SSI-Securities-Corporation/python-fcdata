@@ -1,12 +1,7 @@
 import json
-import time
-
-from requests import Session
-from requests import utils
 from .signalr import Connection
 from .model import api
 from .model import constants
-import requests
 from .fc_md_client import MarketDataClient
 
 
