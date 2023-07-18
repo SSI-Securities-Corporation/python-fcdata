@@ -2,6 +2,17 @@
 
 <!--next-version-placeholder-->
 
+## v2.1.1 (2023-07-17)
+
+### Fix
+
+* Remove unsuse lib ([`d408ba9`](https://github.com/SSI-Securities-Corporation/python-fcdata/commit/d408ba905e7971b5b4a41d36d1b6a0d5c7b80010))
+
+### Documentation
+
+* Update guide ([`f335392`](https://github.com/SSI-Securities-Corporation/python-fcdata/commit/f335392b873e22e5cf810b71eb2de686ea838004))
+* Update version 2.1 ([`6c96550`](https://github.com/SSI-Securities-Corporation/python-fcdata/commit/6c9655094294fe5c1c9a3d57c8c048031f60133d))
+
 ## v2.1.0 (2023-07-11)
 
 ### Feature
