@@ -2,6 +2,16 @@
 
 <!--next-version-placeholder-->
 
+## v2.1.2 (2023-07-18)
+
+### Fix
+
+* Update guide ([`c00e67b`](https://github.com/SSI-Securities-Corporation/python-fcdata/commit/c00e67b27e6aa7d90d7b65043cbca117dce592b8))
+
+### Documentation
+
+* Delete old doc version ([`ecb0bd7`](https://github.com/SSI-Securities-Corporation/python-fcdata/commit/ecb0bd79b815f149847cc0d71cce3a4556729367))
+
 ## v2.1.1 (2023-07-17)
 
 ### Fix
