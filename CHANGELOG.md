@@ -2,6 +2,16 @@
 
 <!--next-version-placeholder-->
 
+## v2.2.0 (2023-07-27)
+
+### Feature
+
+* Update new domain for data hub streaming ([`f6e5894`](https://github.com/SSI-Securities-Corporation/python-fcdata/commit/f6e589418461dedc5f9aace7c6bfaf1654ae5df2))
+
+### Documentation
+
+* Update new document v2.2 ([`f72f4d2`](https://github.com/SSI-Securities-Corporation/python-fcdata/commit/f72f4d29f3b752789667213d05ad93a975cc2b98))
+
 ## v2.1.2 (2023-07-18)
 
 ### Fix
