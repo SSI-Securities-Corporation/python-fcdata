@@ -2,6 +2,12 @@
 
 <!--next-version-placeholder-->
 
+## v2.2.1 (2023-09-29)
+
+### Fix
+
+* Add packages to setuptools ([`98ade98`](https://github.com/SSI-Securities-Corporation/python-fcdata/commit/98ade98154807eee300e4b0b6a22b13abdcb3747))
+
 ## v2.2.0 (2023-07-27)
 
 ### Feature
