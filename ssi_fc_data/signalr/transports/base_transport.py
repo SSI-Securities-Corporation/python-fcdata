@@ -1,11 +1,11 @@
 from ..helpers import Helpers
 
 class BaseTransport(object):
-    def __init__(self, on_message=None):
+    def __init__(self, on_message=None, on_close=None, on_open=None):
         self._on_message= on_message
         self.logger = Helpers.get_logger()
-        self._on_open = lambda: self.logger.info("on_connect not defined")
-        self._on_close = lambda: self.logger.info("on_disconnect not defined")
+        self._on_open = on_open if on_open else lambda: self.logger.info("on_connect not defined")
+        self._on_close = on_close if on_close else lambda: self.logger.info("on_disconnect not defined")
         self._on_reconnect = lambda: self.logger.info("on_reconnect not defined")
 
     def on_open_callback(self, callback):

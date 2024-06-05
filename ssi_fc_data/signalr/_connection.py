@@ -15,7 +15,7 @@ import logging
 class Connection(object):
     protocol_version = '1.5'
 
-    def __init__(self, url, headers=None):
+    def __init__(self, url, headers=None,  **kwargs):
         self.url = url
         self.__hubs = {}
         self.__send_counter = -1
@@ -26,7 +26,7 @@ class Connection(object):
         self.error = EventHook()
         self.started = False
         self.logger = Helpers.get_logger()
-        self.__transport = WebsocketTransport(self.url, self.headers, on_message=self._on_message )
+        self.__transport = WebsocketTransport(self.url, self.headers, on_message=self._on_message, **kwargs )
         
         def handle_error(**kwargs):
             error = kwargs["E"] if "E" in kwargs else None
