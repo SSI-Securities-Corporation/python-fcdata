@@ -2,6 +2,12 @@
 
 <!--next-version-placeholder-->
 
+## v2.2.2 (2024-06-05)
+
+### Fix
+
+* Expose close and open event from websocket ([`82f1b2b`](https://github.com/SSI-Securities-Corporation/python-fcdata/commit/82f1b2b4ed9638148164cf36b225950d3776759d))
+
 ## v2.2.1 (2023-09-29)
 
 ### Fix
